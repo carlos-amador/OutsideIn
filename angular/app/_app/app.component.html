@@ -1,0 +1,67 @@
+<main class="container-fluid">
+
+    <header class="row">
+        <div class="col-sm-2">
+            <img src="../../images/angular.png">
+        </div>
+        <div class="col-sm-4">
+            <h1>Base Angular Application</h1>
+        </div>
+        <div class="col-sm-6">
+            <!--<h1>Base Angular Application</h1>-->
+        </div>
+
+    </header>
+
+    <section class="row">
+        <nav class="col-md-2">
+            <div>
+                <a routerLink="/feature1">Overview</a>
+            </div>
+            <div>
+                <a routerLink="/feature2">Angular</a>
+            </div>
+            <div>
+                <a routerLink="/feature3">Webpack</a>
+            </div>
+            <div>
+                Karma
+            </div>
+            <div>
+                Protractor
+            </div>
+            <div>
+                Cucumber
+            </div>
+            <div>
+                Rxjs
+            </div>
+            <div>
+                Typescript
+            </div>
+            <div>
+                Bootstrap
+            </div>
+
+        </nav>
+
+        <!--<section class="col-md-10 content">
+            <router-outlet></router-outlet>
+            <spinner *ngIf="loading" class="loading" loading="loading"></spinner>
+
+        </section>-->
+
+        <section class="col-md-10 content">
+             <span >
+                <router-outlet>
+                    <spinner></spinner>
+                </router-outlet>
+            </span>
+           
+        </section>
+
+    </section>
+
+    
+
+</main>

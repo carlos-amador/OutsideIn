@@ -1,0 +1,8 @@
+c:\prototypes\aspcore\api\bin\Debug\netcoreapp1.1\api.deps.json
+c:\prototypes\aspcore\api\bin\Debug\netcoreapp1.1\api.runtimeconfig.json
+c:\prototypes\aspcore\api\bin\Debug\netcoreapp1.1\api.runtimeconfig.dev.json
+c:\prototypes\aspcore\api\bin\Debug\netcoreapp1.1\api.dll
+c:\prototypes\aspcore\api\bin\Debug\netcoreapp1.1\api.pdb
+c:\prototypes\aspcore\api\obj\Debug\netcoreapp1.1\api.AssemblyInfo.cs
+c:\prototypes\aspcore\api\obj\Debug\netcoreapp1.1\api.dll
+c:\prototypes\aspcore\api\obj\Debug\netcoreapp1.1\api.pdb

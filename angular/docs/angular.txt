@@ -1,0 +1,6 @@
+
+// to use modules
+import { NgModule } from '@angular/core';
+
+// to use directives ex. NgIf, NgFor
+import { BrowserModule }  from '@angular/platform-browser';

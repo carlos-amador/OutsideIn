@@ -1,0 +1,36 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "express api reference app",
+  "main": "app/api.ts",
+  "scripts": {
+    "pretest2": "tsc --project tsconfig.json",
+    "pretest": "webpack --config ./config/webpack.dev.js",
+    "test2": "mocha \"app/*.spec.js\"",
+    "test3": "mocha-webpack --webpack-config ./config/webpack.dev.js \"app/**/*.spec.js\"",
+    "test": "mocha --compilers ts:ts-node/register ./app/**/**.spec.ts",
+    "prestart": "webpack",
+    "start": "node ./dist/app.js"
+  },
+  "author": "carlos amador",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/express": "^4.0.37",
+    "@types/sinon": "^2.3.5",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.0",
+    "mocha-typescript": "^1.1.9",
+    "mocha-webpack": "^0.7.0",
+    "sinon": "^4.0.1",
+    "ts-loader": "^2.3.7",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3",
+    "webpack": "^3.6.0",
+    "webpack-merge": "^4.1.0",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "dependencies": {
+    "express": "^4.16.0"
+  }
+}

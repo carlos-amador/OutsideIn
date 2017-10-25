@@ -1,0 +1,28 @@
+
+
+pluggable architecture
+multi tenant
+
+
+markdown editor
+
+subscriptions
+
+comments
+
+blog search
+
+about page
+
+reports
+
+
+admin
+  feature toggle menu
+  blog publish menu
+  author accounts
+
+
+bdd example -
+
+https://github.com/igniteram/protractor-cucumber-typescript
